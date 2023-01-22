@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.lists{
+    padding: 0;
+    list-style: none;
+    margin: 20px 0;
+}

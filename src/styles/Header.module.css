@@ -1,0 +1,25 @@
+.nav {
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav h2 {
+    margin: 0;
+    padding: 20px 0;
+}
+
+@media(max-width:560px) {
+    .nav {
+        min-width: 300px;
+        display: block;
+        padding: 8px 6px;
+    }
+}

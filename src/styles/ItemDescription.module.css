@@ -1,0 +1,24 @@
+.desc_page{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 79px;
+    background-color: aliceblue;
+}
+.desc_page .item_img{
+    width: 30%;
+}
+.desc_page .item_img img{
+    width: 100%;
+}
+@media(max-width:560px) {
+    .desc_page {
+        display: block;
+        margin-top: 127px;
+    }
+    .desc_page .item_img{
+        width: 100%;
+    }
+    .desc{
+        width: 100% !important;
+    }
+}

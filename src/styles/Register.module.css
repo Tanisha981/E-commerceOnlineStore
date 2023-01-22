@@ -1,0 +1,28 @@
+.registration_layer{
+    background-color: #a4c2c3;
+    width: 35%;
+    border-radius: 8px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.input_fields{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.input_fields button{
+    padding: 5px;
+    border: 2px solid #596f6b;
+    background-color: #437a7c;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .registration_layer{
+        width: 80%;
+    }
+}

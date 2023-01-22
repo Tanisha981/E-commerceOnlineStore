@@ -1,0 +1,32 @@
+.form_col{
+    background-color: #a4c2c3;
+    padding: 20px;
+    width: 30%;
+    margin: 12% auto;
+    text-align: center;
+}
+.form_col .rows{
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form_col button{
+    padding: 5px;
+    border: 2px solid #596f6b;
+    background-color: #437a7c;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.form_col button.invalid{
+    background-color: #f1f2f2;
+    color: rgb(132, 129, 129);
+    border: 2px solid #7c7f7f;
+}
+@media (max-width: 1020px) {
+    .form_col{
+        width: 80%;
+    }
+}
